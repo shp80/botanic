@@ -1,0 +1,59 @@
+.flyer .title{
+  top: 26.4333px;
+}
+.flyer .guest{
+  top: 52.8667px;
+}
+.flyer .date{
+  top: 79.3px;
+}
+.flyer .place{
+  top: 105.733px;
+}
+.flyer .infos{
+  top: 132.167px;
+}
+.flyer .event{
+  top:0;
+}
+#frame.flyer .text p{
+  padding: 2px 0 0 0;
+  box-sizing: border-box;
+}
+
+#frame.flyer p{
+  margin: 0;
+  height: fit-content;
+}
+#frame.flyer .title p{
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 24px;
+  width: fit-content;
+}
+#frame.flyer .guest p{
+  font-size: 20px;
+  line-height: 24px;
+  width: fit-content;
+}
+#frame.flyer .date p{
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 24px;
+  width: fit-content;
+}
+#frame.flyer .place p{
+  font-size: 20px;
+  line-height: 24px;
+  width: fit-content;
+}
+#frame.flyer .event p{
+  font-size: 20px;
+  line-height: 24px;
+  width: fit-content;
+}
+#frame.flyer .infos p{
+  font-size: 10.5px;
+  line-height: 13.5px;
+  width: fit-content;
+}
