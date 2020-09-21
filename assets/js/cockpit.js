@@ -11,7 +11,7 @@ function load_data(callback, args)
   if(args != null){
     cbArgs = args;
   }
-  var baseUrl = 'http://localhost:8888/shp80_2/cockpit/api';
+  var baseUrl = 'https://shp80.github.io/botanic/cockpit/api';
   var complementUrl = '/collections/get/plant';
 
   var finalUrl = baseUrl + complementUrl + '?token=0d1b3633d28a0d9a589c094f508ddd';
@@ -48,7 +48,7 @@ function save_data(data, callback, args)
     cbArgs = args;
   }
 
-  var baseUrl = 'http://localhost:8888/shp80_2/cockpit/api';
+  var baseUrl = 'https://shp80.github.io/botanic/cockpit/api';
   var complementUrl = '/collections/save/plant';
 
   var finalUrl = baseUrl + complementUrl + '?token=0d1b3633d28a0d9a589c094f508ddd';
@@ -76,7 +76,7 @@ function remove_data(data, callback, args)
     cbArgs = args;
   }
 
-  var baseUrl = 'http://localhost:8888/shp80_2/cockpit/api';
+  var baseUrl = 'https://shp80.github.io/botanic/cockpit/api';
   var complementUrl = '/collections/remove/plant';
 
   var finalUrl = baseUrl + complementUrl + '?token=0d1b3633d28a0d9a589c094f508ddd';
